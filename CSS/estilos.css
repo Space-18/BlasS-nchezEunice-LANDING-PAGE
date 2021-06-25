@@ -321,21 +321,43 @@ height: 350px;
   padding-right: 0;
 }
 
-.btn_enviar{
+/*
+.boton{
+	border: 2px solid transparent;
 	color: black;
 	text-decoration: none;
-	margin-left: 80%;
-	background-color: white;
+	float: right;
+	background: #FFDC99;
 	border-radius: 5px;
-	border: 1px;
-	border-color: black;
+	border: 1px solid black;
 	cursor: pointer;
 	padding:10px 30px;
+	transition: 0.25s;
 }
 
-.btn_enviar: hover{
-background-color: black;
+.boton: hover{
+	background-color: #FFCC99;
 }
+*/
+
+
+.boton {
+  border: 2px solid transparent;
+  background: #FFDC99;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.25s;
+	float: right;
+	padding:10px 30px;
+}
+.boton:hover {
+  background-color: #333333;
+	color: white;
+}
+
+
 
 .contacto img{
 	margin-left: 50px;
@@ -369,7 +391,7 @@ background-color: black;
 	margin: auto;
 	padding-top: 10px;
 	overflow: hidden;
-	métodos para colocar el texto al lado de la imagen
+	/*métodos para colocar el texto al lado de la imagen*/
 	column-count: 2;
 
 }
