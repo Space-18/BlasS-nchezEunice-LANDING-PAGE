@@ -353,7 +353,7 @@ height: 350px;
 }
 
 .contacto p{
-	font-family: 'Work Sans', sans-serif; 
+	font-family: 'Work Sans', sans-serif;
 	color: #333333;
 	font-weight: 500;
 }
@@ -362,7 +362,7 @@ height: 350px;
 
 /*footer*/
 footer{
-	max-width: 1366px;
+
 	padding: 100px 0 100px 0;
 	width: 100%;
 	background: #FFCC99;
@@ -371,20 +371,22 @@ footer{
 footer a{
 	text-decoration: none;
 	color: white;
-	background-color: blueviolet;
 }
 
 .foot_cont{
-	background-color: lawngreen;
+	width: auto;
 	display: inline-flex;
+	margin-left: 10%;
 }
 
 .foot1{
-	background-color: lightseagreen;
-	margin-left: 10%;
+	margin-left: 20%;
 	display: block;
 	text-align: left;
-	padding: 0;
+}
+
+.foot1 a{
+	margin-bottom: 680px;
 }
 
 .foot_cont a{
@@ -394,26 +396,23 @@ footer a{
 }
 
 .foot2{
-	background-color: magenta;
-	margin-left: 0;
+	margin-left: 20%;
 	display: block;
 	text-align: left;
 	padding: 0;
 }
 
 footer img{
-	background-color: coral;
-	justify-content: space-between;
+	padding-left: 50px;
 	width: 100%;
 	height: 100%;
 }
 
 .imgFoot{
-	background-color: lightpink;
-	float:right;
+	display: inline-flex;
 	width: 86px;
 	right: 86px;
-	padding: 0 10% 0 0;
+	padding-left: 60px;
 }
 /*footer final*/
 
