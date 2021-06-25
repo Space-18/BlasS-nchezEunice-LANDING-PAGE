@@ -342,22 +342,20 @@ height: 350px;
 
 
 .boton {
-  border: 2px solid transparent;
-  background: #FFDC99;
+  border: 2px solid #FFDC99;
+  background: white;
   color: black;
   font-size: 16px;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
   transition: 0.25s;
 	float: right;
 	padding:10px 30px;
 }
 .boton:hover {
-  background-color: #333333;
-	color: white;
+  background-color: #FFDC99;
+	color: #333333;
 }
-
-
 
 .contacto img{
 	margin-left: 50px;
@@ -368,6 +366,19 @@ height: 350px;
 .contacto{
 	display:flex;
 }
+
+footer{
+	background: #FFCC99;
+}
+
+
+
+
+
+
+
+
+
 
 #conocimientos{
 	background-color: #EF2327;
