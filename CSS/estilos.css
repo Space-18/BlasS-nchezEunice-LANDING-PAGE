@@ -306,9 +306,8 @@ height: 350px;
 .contenedorPadre4{
 	margin-top: 60px;
 	margin-bottom: 60px;
+	margin-left: 10%;;
 }
-
-
 
 .form_contacto input{
 	outline-color: transparent;
@@ -322,6 +321,19 @@ height: 350px;
   padding-right: 0;
 }
 
+.form_contacto button{
+	
+}
+
+.contacto img{
+	margin-left: 50px;
+	width: 70%;
+	border-radius: 25px;
+}
+
+.contacto{
+	display:flex;
+}
 
 #conocimientos{
 	background-color: #EF2327;
