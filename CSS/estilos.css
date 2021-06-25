@@ -311,16 +311,15 @@ height: 350px;
 
 
 .form_contacto input{
-	line-height: 1;
-	outline: 0;
 	outline-color: transparent;
-	  border-color: black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: .125rem;
-    padding-left: 0;
-    padding-right: 0;
+  border-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+	width: 500px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
