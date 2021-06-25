@@ -82,12 +82,13 @@ nav ul li a:hover{
 #slider{
 	background-image: url("../IMAGENES/fondo2.png");
 	background-size: cover;
+	padding-bottom: 250px;
 }
 
 .cont_slider{
 	width:100%;
 	max-width: 1366px;
-	padding-top: 15%; /*cambiar*/
+	padding-top: 250px; /*cambiar*/
 	height: 100%;
 }
 
