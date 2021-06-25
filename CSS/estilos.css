@@ -367,21 +367,39 @@ height: 350px;
 	display:flex;
 }
 
+/*footer*/
 footer{
+	padding: 60px 0 60px 0;
+	width: 100%;
 	background: #FFCC99;
 }
 
-/*footer*/
-.foot1{
+footer a{
+	text-decoration: none;
+	color: white;
+}
 
+.foot_cont{
+	display: inline-flex;
+}
+
+.foot1{
+	margin-left: 10%;
+	display: block;
 }
 
 .foot2{
-
+	margin-left: 10%;
+	display: block;
 }
 
 footer img{
-	margin-left: 5%;
+	margin-left: 50px;
+}
+
+.imgFoot{
+	margin-left: 10%;
+	display: inline-flex;
 }
 /*footer final*/
 
