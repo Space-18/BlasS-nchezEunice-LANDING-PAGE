@@ -1,0 +1,375 @@
+/* ESTA ES LA HOJA DE ESTILOS */
+
+/*
+TIPOS DE LETRA
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+------------
+*/
+
+
+
+
+
+
+/* TAMAÑO PC - SUPERIORES - 1367px a más */
+*{
+/*	width: 100%;
+	height: 100%; */
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: rgba(249, 207, 172, 0.0); /*color de fondo, borrar si es transparente*/
+	width: 100%; /*ancho de la caja*/
+	height: 80px; /*altura de la caja 80px*/
+	position: fixed;
+}
+
+
+#cont_header{
+	height: auto;
+	width: auto; /*ancho de la caja*/
+	max-width: 1366px; /*ancho máximo de la caja*/
+	margin: auto; /*centrar la caja*/
+}
+
+#logo{
+	width:93px;
+	height: 54px;
+	padding: 13px 0 0 20px;
+	float: left; /*flotando a la izquierda*/
+}
+
+nav{
+	height: auto;
+	width: 713px; /*ancho de la barra*/
+	float: right; /*flotar a la derecha*/
+}
+
+nav ul li{
+	list-style: none; /*oculta los puntos de listado*/
+}
+
+nav ul li a{
+	text-decoration: none; /*quita el subrayado al texto*/
+	color: #333333; /*color de texto*/
+}
+
+nav ul li a:link{
+	display: block; /*contenedor para cada item o palabra*/
+	width: auto; /*ancho de los botones*/
+	float: left; /*alinear palabras del menú a la izquierda*/
+	padding-top: 25px; /*margen interno*/
+	padding-left: 17px;
+        padding-right: 17px;
+	padding-bottom: 5px;
+	font-family: 'Poppins', sans-serif; /*tipografía*/
+	font-weight: 700; /*grosor del texto*/
+}
+
+nav ul li a:hover{
+	color: #333333;
+	border-bottom: 3.2px solid #333333;
+	transition: all 0.4s cubic-bezier(0.98, -1.55, 0.27, 1.55);
+	transform: scale(1.20);
+}
+
+#slider{
+	background-image: url("../IMAGENES/fondo.jpg");
+	background-size: cover;
+}
+
+.cont_slider{
+	width:auto;
+	max-width: 1306px;
+	height: auto;
+	margin-left: 13px 0 0 20px;
+	padding-top: 15%; /*cambiar*/
+}
+
+h1{
+	font-family: 'Work Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 2.1em;
+	text-align: left;
+	padding-left: 85px;
+	padding-top: 20px;
+	width: auto;
+	height: auto;
+}
+h2{
+	font-family: 'Work Sans', sans-serif;
+	color: #333333;
+	font-weight: 700;
+	font-size: 4.5em;
+	text-align: left;
+	padding-left: 82px;
+	padding-top: 15px;
+	width: auto;
+	height: auto;
+}
+
+h3{
+	font-family: 'Work Sans', sans-serif;
+	color: #333333;
+	font-weight: 500;
+	font-size: 1.9em;
+	text-align: left;
+	padding-left: 85px;
+	padding-top: 7px;
+	width: auto;
+}
+
+/*sobre mi*/
+#sobremi{  /*fondo*/
+	background-color: #FFFFFF;
+	height: auto;
+	padding: 95px 0;
+}
+
+.mi_foto{
+	background-image: url("../IMAGENES/foto.png");
+	width: 251px;
+	height: 260px;
+	border-radius: 100px;
+	align-content: center;
+	margin:auto;
+	background-size: cover;
+}
+.cont_sobremi{     /*contenedor*/
+	width: auto;
+	max-width: 1306px;
+	height: auto;
+	margin: auto;
+	padding-top: 10px;
+	overflow: hidden;
+	/*métodos para colocar el texto al lado de la imagen
+	column-count: 2;
+	*/
+}
+h4{
+	font-family: 'Work Sans', sans-serif;
+	color: #333333;
+	text-decoration:underline #ffcc99;
+	font-weight: 500;
+	font-size: 1.5em;
+	margin-top: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.cont_sobremi p{  /*texto*/
+	font-family: 'Work Sans', sans-serif;
+	color: #333333;
+	font-weight: 400;
+	font-size: 1.1em; /*o 16px*/
+	margin: auto;
+	width: 45%;
+	text-align: center;
+	padding: 7px 0 0 0;
+}
+
+/*conocimientos*/
+.contenedorPadre{
+    background: rgba(255, 204, 153, 0.1);
+    padding-bottom: 35px;
+	padding-top: 60px;
+    height: 390px;
+}
+
+
+ h5{
+    font-family: 'Work Sans', sans-serif;
+    color: #333333;
+    text-decoration: underline #ffcc99;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.habilidades{
+
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.contenedor{
+    height: 60px;
+    text-align: center;
+}
+
+.contenedor img{
+    width: 40%;
+    height: 100px;
+}
+
+.subHabilidades{
+font-family: 'Work Sans', sans-serif;
+color: #333333;
+font-weight: 400;
+font-size: 1.1em; /*o 16px*/
+margin: auto;
+padding: 7px 0 0 0;
+width: 28%;
+text-align: center;
+height: 350px;
+}
+
+.subHabilidades p{
+	margin-top: 25px;
+}
+
+/*servicios*/
+.contenedorPadre2{
+    background: #abafcf;
+    padding-bottom: 35px;
+	padding-top: 60px;
+    height: 570px;
+}
+
+.servicios{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.contenedor2{
+    height: 60px;
+	box-align: center;
+}
+
+.contenedor2 img{
+	width: 251px;
+	height: 402px;
+	margin: 3%;
+	margin-left: 11%;
+}
+
+/*portafolio*/
+.contenedorPadre3{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 1.75%;
+	background-color: black;
+}
+
+.contenedor3{
+	display: inline-flex;
+}
+
+.portafolio{
+	display: inline-flex;
+}
+
+.portafolio1{
+	margin-left: 20px;
+	display: block;
+}
+
+.portafolio1 img{
+	margin-top: 10px;
+}
+
+.subportafolio1 img{
+	width: 611px;
+	height: 811px;
+}
+
+.subportafolio2 img{
+	width: 655px;
+	height: 395px;
+}
+
+.subportafolio3 img{
+	width: 655px;
+	height: 395px;
+}
+
+#Conte_nedor{
+	width: 100%;
+	height: 100%;
+}
+
+/*contacto*/
+.contenedorPadre4{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+#conocimientos{
+	background-color: #EF2327;
+	height: auto;
+	padding: 95px 0;
+}
+
+.icono_1{
+	background-image: url("../IMAGENES/icono1.png");
+	width: 161px;
+	height: 159px;
+	border-radius: 100px;
+	margin:auto;
+	background-size: cover;
+}
+
+.cont_conocimientos{
+    width: auto;
+	max-width: 1306px;
+	height: auto;
+	margin: auto;
+	padding-top: 10px;
+	overflow: hidden;
+	métodos para colocar el texto al lado de la imagen
+	column-count: 2;
+
+}
+
+
+/* TAMAÑO PC - LAPTOP ESTÁNDAR - 1025px a 1366px */
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+	header{ background-color: red; }
+}
+
+
+/* TAMAÑO TABLET - HORIZONTAL -  961px a 1024px */
+@media all and (min-width: 961px) and (max-width: 1024px) {
+	header{ background-color: salmon; }
+}
+
+
+/* TAMAÑO TABLET - VERTICAL - 769px a 960px */
+@media all and (min-width: 769px) and (max-width: 960px) {
+	header{ background-color: sandybrown; }
+}
+
+
+/* TAMAÑO CELULAR - HORIZONTAL - 481px a 768px */
+@media all and (min-width: 481px) and (max-width: 768px) {
+	header{ background-color: cornsilk; }
+}
+
+
+/* TAMAÑO CELULAR - VERTICAL - 0x a 480px */
+@media all and (min-width: 0px) and (max-width: 480px) {
+	header{ background-color: lightpink; }
+}
