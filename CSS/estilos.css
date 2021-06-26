@@ -48,7 +48,7 @@ header{
 
 nav{
 	height: auto;
-	width: 50%; /*ancho de la barra*/
+	width: 30%; /*ancho de la barra*/
 	float: right; /*flotar a la derecha*/
 }
 
@@ -486,7 +486,14 @@ footer img{
 
 /* TAMAÑO PC - LAPTOP ESTÁNDAR - 1025px a 1366px */
 @media all and (min-width: 1025px) and (max-width: 1366px) {
-	header{ background-color: rgbargba(197, 197, 197, 0.7); }
+	header{
+		background-color: rgbargba(197, 197, 197, 0.7)
+	}
+	nav{
+		height: auto;
+		width: 50%; /*ancho de la barra*/
+		float: right; /*flotar a la derecha*/
+	}
 }
 
 
