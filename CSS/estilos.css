@@ -468,7 +468,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 100%;
+		width: auto;
 	}
 	footer{
 		width: 100%;
