@@ -80,10 +80,8 @@ nav ul li a:hover{
 	transform: scale(1);
 }
 
-#slider{
-	background-image: url("../IMAGENES/fondo2.png");
-	background-size:auto;
-	padding-bottom: 250px;
+.slide_img{
+
 }
 
 .cont_slider{
@@ -302,6 +300,7 @@ height: 350px;
 }
 
 #Conte_nedor{
+	position: absolute;
 	width: auto;
 	height: auto;
 }
