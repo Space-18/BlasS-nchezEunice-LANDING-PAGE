@@ -48,7 +48,7 @@ header{
 
 nav{
 	height: auto;
-	width: 30%; /*ancho de la barra*/
+	width: 60%; /*ancho de la barra*/
 	float: right; /*flotar a la derecha*/
 }
 
