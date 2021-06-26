@@ -46,7 +46,7 @@ header{
 
 nav{
 	height: auto;
-	width: 45%; /*ancho de la barra*/
+	width: 50%; /*ancho de la barra*/
 	float: right; /*flotar a la derecha*/
 }
 
@@ -457,7 +457,35 @@ footer img{
 
 
 
-
+/* TAMAÑO PC - LAPTOP SUPERIORES - 1367px a más*/
+@media all and (min-width: 1367px){
+	header{
+		background-color: rgbargba(197, 197, 197, 0.7)
+}
+	nav{
+		height: auto;
+		width: 28%; /*ancho de la barra*/
+		float: right; /*flotar a la derecha*/
+	}
+	#Conte_nedor{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+}
+#contenedorPadre2{
+	max-width: 100%;
+}
+.servicios{
+	margin-left: 9%;
+}
+#contenedorPadre3{
+	max-width: 100%;
+}
+.contenedor3{
+	padding-left: 23%;
+}
+}
 
 /* TAMAÑO PC - LAPTOP ESTÁNDAR - 1025px a 1366px */
 @media all and (min-width: 1025px) and (max-width: 1366px) {
@@ -470,7 +498,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 1300px;
+		width: 1366px;
 	}
 	footer{
 		width: 1366px;
@@ -486,7 +514,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 1300px;
+		width: 1366px;
 	}
 	footer{
 		width: 1366px;
@@ -502,7 +530,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 1300px;
+		width: 1366px;
 	}
 	footer{
 		width: 1366px;
@@ -518,7 +546,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 1300px;
+		width: 1366px;
 	}
 	footer{
 		width: 1366px;
@@ -534,7 +562,7 @@ footer img{
 		float: right; /*flotar a la derecha*/
 	}
 	#Conte_nedor{
-		width: 1300px;
+		width: 1366px;
 	}
 	footer{
 		width: 1366px;
