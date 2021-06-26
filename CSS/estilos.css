@@ -491,7 +491,7 @@ footer img{
 	}
 	nav{
 		height: auto;
-		width: 50%; /*ancho de la barra*/
+		width: 90%; /*ancho de la barra*/
 		float: right; /*flotar a la derecha*/
 	}
 }
