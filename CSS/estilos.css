@@ -22,9 +22,11 @@ font-family: 'Work Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
-
+#General_Contenedor{
+	width: 100%;
+}
 header{
-	background-color: rgba(255, 251, 247, 0.1); /*color de fondo, borrar si es transparente*/
+	background-color: rgba(197, 197, 197, 0.7); /*color de fondo, borrar si es transparente*/
 	width: 100%; /*ancho de la caja*/
 	height: 80px; /*altura de la caja 80px*/
 	position: fixed;
@@ -34,7 +36,6 @@ header{
 #cont_header{
 	height: auto;
 	width: auto; /*ancho de la caja*/
-	max-width: 1366px; /*ancho máximo de la caja*/
 	margin: auto; /*centrar la caja*/
 }
 
@@ -47,7 +48,7 @@ header{
 
 nav{
 	height: auto;
-	width: 713px; /*ancho de la barra*/
+	width: 50%; /*ancho de la barra*/
 	float: right; /*flotar a la derecha*/
 }
 
@@ -472,7 +473,6 @@ footer img{
 
 .cont_conocimientos{
     width: auto;
-	max-width: 1306px;
 	height: auto;
 	margin: auto;
 	padding-top: 10px;
@@ -486,7 +486,7 @@ footer img{
 
 /* TAMAÑO PC - LAPTOP ESTÁNDAR - 1025px a 1366px */
 @media all and (min-width: 1025px) and (max-width: 1366px) {
-	header{ background-color: rgba(255, 251, 247, 0.1); }
+	header{ background-color: rgbargba(197, 197, 197, 0.7); }
 }
 
 
