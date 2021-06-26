@@ -82,7 +82,7 @@ nav ul li a:hover{
 
 #slider{
 	background-image: url("../IMAGENES/fondo2.png");
-	background-size: cover;
+	background-size:auto;
 	padding-bottom: 250px;
 }
 
@@ -302,8 +302,8 @@ height: 350px;
 }
 
 #Conte_nedor{
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
 }
 
 /*contacto*/
@@ -488,10 +488,10 @@ footer img{
 @media all and (min-width: 1025px) and (max-width: 1366px) {
 	header{
 		background-color: rgbargba(197, 197, 197, 0.7)
-	}
+}
 	nav{
 		height: auto;
-		width: 50%; /*ancho de la barra*/
+		width: 52%; /*ancho de la barra*/
 		float: right; /*flotar a la derecha*/
 	}
 }
@@ -502,7 +502,7 @@ footer img{
 	header{ background-color: rgba(255, 251, 247, 0.1); }
 	nav{
 		height: auto;
-		width: 65%; /*ancho de la barra*/
+		width: 52%; /*ancho de la barra*/
 		float: right; /*flotar a la derecha*/
 	}
 }
@@ -513,7 +513,7 @@ footer img{
 	header{ background-color: rgba(255, 251, 247, 0.1); }
 	nav{
 		height: auto;
-		width: 80%; /*ancho de la barra*/
+		width: 52%; /*ancho de la barra*/
 		float: right; /*flotar a la derecha*/
 	}
 }
@@ -522,10 +522,20 @@ footer img{
 /* TAMAÑO CELULAR - HORIZONTAL - 481px a 768px */
 @media all and (min-width: 481px) and (max-width: 768px) {
 	header{ background-color: rgba(255, 251, 247, 0.1); }
+	nav{
+		height: auto;
+		width: 52%; /*ancho de la barra*/
+		float: right; /*flotar a la derecha*/
+	}
 }
 
 
 /* TAMAÑO CELULAR - VERTICAL - 0x a 480px */
 @media all and (min-width: 0px) and (max-width: 480px) {
 	header{ background-color: rgba(255, 251, 247, 0.1); }
+	nav{
+		height: auto;
+		width: 52%; /*ancho de la barra*/
+		float: right; /*flotar a la derecha*/
+	}
 }
